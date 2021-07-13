@@ -3,14 +3,5 @@ from django.http import HttpResponse
 
 def home(request):
    
-    return HttpResponse("Just testing if logging works")
-    
- 
-
-
-    
-    
-
-    
-    
-
+    return HttpResponse("""use the django admin to add people with their resepective roles and 
+                           then use the django shell to interact with the manager, for example <b> Person.people.editors() </b> """)
